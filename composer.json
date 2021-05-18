@@ -1,0 +1,21 @@
+{
+    "name": "alberto/user_list",
+    "description": "integrating composer with a wordpress plugin",
+    "authors": [
+        {
+            "name": "Alberto Perez",
+            "email": "alberto056699@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org"
+        }
+    ],
+    "extra": {
+        "wordpress-install-dir": "wp"
+      }
+}
